@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+
+    "name": "Chromeograph",
+    "description": "Die Stämme Angriffe können mit Ziel Zeit versandt werden",
+    "version": "1",
+
+    "permissions": [
+        "<all_urls>",
+        "tabs"
+    ],
+
+    "background": { "scripts": ["background.js"] }
+}
